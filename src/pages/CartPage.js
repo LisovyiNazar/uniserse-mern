@@ -102,7 +102,7 @@ const CartPage = () => {
                 <div className="row card flex-row" key={p._id}>
                   <div className="img-container cart-item-row">
                     <img
-                      src={`/api/v1/product/product-photo/${p._id}`}
+                      src={`https://universe-api.onrender.com/api/v1/product/product-photo/${p._id}`}
                       className="cart-img-top "
                       alt={p.name}
                       width="100%"
