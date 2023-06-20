@@ -4,7 +4,7 @@ import Layout from "./../../components/Layout/Layout";
 
 const Users = () => {
   return (
-    <Layout title={"Dashboard - All Users"}>
+    <Layout title={"Користувачі"}>
       <div className="container-fluid m-3 p-3">
         <div className="row">
           <div className="col-md-3">

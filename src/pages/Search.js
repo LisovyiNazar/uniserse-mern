@@ -9,7 +9,7 @@ const Search = () => {
   const [cart, setCart] = useCart();
   const navigate = useNavigate();
   return (
-    <Layout title={"Search results"}>
+    <Layout title={"Пошук"}>
       <div className="container">
         <div className="text-center">
           <h1>Результат пошуку</h1>

@@ -104,7 +104,7 @@ const UpdateProduct = () => {
     }
   };
   return (
-    <Layout title={"Dashboard - Create Product"}>
+    <Layout title={"Оновити продукт"}>
       <div className="container-fluid m-3 p-3">
         <div className="row">
           <div className="col-md-3">
