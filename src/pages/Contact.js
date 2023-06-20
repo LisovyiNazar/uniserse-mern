@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="col-md-4">
           <h1 className="bg-dark p-2 text-white text-center">Наші контакти</h1>
           <p className="mt-3">
-            <BiMailSend /> : www.help@ecommerceapp.com
+            <BiMailSend /> : vavrivjulia@gmail.com
           </p>
           <p className="mt-3">
             <BiPhoneCall /> : 380-123-123-12

@@ -69,7 +69,7 @@ const ProductDetails = () => {
                 "cart",
                 JSON.stringify([...cart, product])
               );
-              toast.success("Item Added to cart");
+              toast.success("Товар додано до корзини");
             }}
           >
             Додати до корзини
