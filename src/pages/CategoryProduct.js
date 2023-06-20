@@ -34,11 +34,13 @@ const CategoryProduct = () => {
             <div className="d-flex flex-wrap">
               {products?.map((p) => (
                 <div className="card m-2" key={p._id}>
-                  <img
-                    src={`https://universe-api.onrender.com/api/v1/product/product-photo/${p._id}`}
-                    className="card-img-top"
-                    alt={p.bookName}
-                  />
+                  <div className='img-container'>
+                    <img
+                      src={`https://universe-api.onrender.com/api/v1/product/product-photo/${p._id}`}
+                      className="card-img-top"
+                      alt={p.bookName}
+                    />
+                  </div>
                   <div className="card-body">
                     <div className="card-name-price">
                       <h5 className="card-title">{p.bookName}</h5>
